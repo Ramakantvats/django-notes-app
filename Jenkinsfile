@@ -1,7 +1,7 @@
 @Library('shared-library') _
 pipeline{
     agent {label 'django1'}
-    
+
     stages{
         stage("Code"){
             steps{
